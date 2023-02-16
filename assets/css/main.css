@@ -2640,7 +2640,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			/* width: 6.25em; */
 		}
 
 /* Footer */
@@ -3218,4 +3218,16 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+
+	.contact{
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: row;
+		gap: 8px;
+	}
+	.img-avatar {
+		height: 160px;
+		width: 160px !important;
 	}
